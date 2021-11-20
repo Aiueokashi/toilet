@@ -1,0 +1,19 @@
+{
+  "name": "toilet",
+  "version": "0.0.1",
+  "description": "This is the npm package for using the toilet.",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
